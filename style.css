@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+  
+    td.image-cell {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%; 
+    }

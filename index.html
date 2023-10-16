@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Image </title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+      
+        td.image-cell {
+        background-image: url('your-image.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img src="image6.jpg" class="image-cell" alt=""></td>
+            <td><img src="image6.jpg" class="image-cell" alt="" style="background-size: cover;"></td>
+            <td><img src="image6.jpg" class="image-cell" alt=""></td>
+            <td><img src="image6.jpg" class="image-cell"  alt=""></td>
+        </tr>
+        <tr>
+            <td><img src="image6.jpg"class="image-cell"  alt=""></td>
+            <td colspan="2" rowspan="3"><img src="image12.jpg" style="background-size:cover; height: 402px;width: 430px;" alt="" ></td>
+            <td rowspan="2" style="text-align: center; "><p>I am Full-Stack developer </p></td>
+
+        </tr>
+        <tr>
+            <td><img src="image6.jpg"class="image-cell"  alt=""></td>
+
+        </tr>
+        <tr> <td><img src="image6.jpg" class="image-cell" alt=""></td>
+            <td style="text-align: center;"><p>Enjoy the programming</p></td>
+
+        </tr>
+        <tr>
+            <td colspan="4">
+                <footer class="footer bg-light text-center">
+                    <div class="container">
+                      <span class="text-muted">@Harshal gavande </span>
+                    </div>
+                  </footer>
+        </tr>
+    </table>
+</body>
+</html>
